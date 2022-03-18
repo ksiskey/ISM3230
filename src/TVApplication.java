@@ -42,7 +42,7 @@ public class TVApplication {
             System.out.println(" ");
         }                           //end option 1 if loop
             
-            else if (nOption == 2) {    //if user inputs option 2
+            else if (nOption == 2) {    //if user enters option 2
                 System.out.print("Enter channel: ");
                 nChannel = input.nextInt();     //intakes user input and applies it to nChannel
                 System.out.print("Enter volume level: ");
