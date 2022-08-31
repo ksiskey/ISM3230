@@ -1,4 +1,3 @@
-
 public class TV {       //public class to store all methods for tv
     private int nChannel = 1;       //nChannel to hold channel number, initalized to 1
     private int nVolumeLevel = 1;   //nVolume to hold volume level, initialized to 1
@@ -20,9 +19,9 @@ public class TV {       //public class to store all methods for tv
         } //end if true statement
         else {  //if one of the criteria above isnt met
             System.out.println("One of the parameters is incorrect; the TV will be created using the default values");
-            nChannel = nChannel;    //nChannel takes default value
-            nVolumeLevel = nVolumeLevel;    //nVolumeLevel takes default value
-            bOn = bOn;  //bOn takes default value
+            //nChannel = nChannel;    //nChannel takes default value
+            //nVolumeLevel = nVolumeLevel;    //nVolumeLevel takes default value
+            //bOn = bOn;  //bOn takes default value
         }   //end if false statement
     } //end overloaded constructor
     
@@ -106,9 +105,3 @@ public class TV {       //public class to store all methods for tv
 
 
 }
-
-
-
-
-
-
