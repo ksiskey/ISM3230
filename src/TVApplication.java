@@ -3,6 +3,9 @@ import java.util.Scanner;   //importing scanner to take info
 public class TVApplication { 
 //TV application works as a remote control that maniputlates TV and preforms commands based on user input
 
+    /**
+     * @param args
+     */
     public static void main(String[] args) {
         //Main method used to preform all the tasks of the remote control
         Scanner input = new Scanner(System.in); //scanner used to take in user info
@@ -129,6 +132,8 @@ public class TVApplication {
         
         System.out.print("Please select another option: ");
         nOption = input.nextInt();
+
+        input.close();
         
         } //end while loop for options
     } //end main method 
